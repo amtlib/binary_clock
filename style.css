@@ -8,7 +8,7 @@ span{
     border: 1px solid white;
     float: left;
     position:absolute;
-    transition-duration: .2s;
+    transition-duration: .5s;
 }
 #clock{
     border: 0;
