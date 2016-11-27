@@ -1,0 +1,54 @@
+
+body {
+    background-color: #333;
+}
+span{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    float: left;
+    position:absolute
+}
+#clock{
+    border: 0;
+    height: 400px;
+    width: 660px;
+    margin: 0 auto;
+}
+.active{
+    background-color:cadetblue;
+}
+#hours_1, #minutes_1, #seconds_1{
+    bottom:0px;
+}
+#hours_2, #minutes_2, #seconds_2{
+    bottom:110px;
+}
+#minutes_3, #seconds_3{
+    bottom:220px;
+}
+#hours_3, #minutes_4, #seconds_4{
+    bottom:0px;
+    left: 110px;
+}
+#hours_4, #minutes_5, #seconds_5{
+    bottom:110px;
+    left: 110px;
+}
+#hours_5, #minutes_6, #seconds_6{
+    bottom:220px;
+    left: 110px;
+}
+#hours_6, #minutes_7, #seconds_7{
+    bottom:330px;
+    left: 110px;
+}
+
+
+#hours, #minutes, #seconds{
+    width: 200px;
+    height: 430px;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
